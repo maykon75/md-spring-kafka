@@ -10,7 +10,7 @@ import org.slf4j.Logger;
 
 @Component
 public class KafkaProducer {
-    private static Logger log = LoggerFactory.getLogger(KafkaProducer.class);
+    private static final Logger log = LoggerFactory.getLogger(KafkaProducer.class);
 
     @Value("${kafka.topic.customer}")
     private String topic;

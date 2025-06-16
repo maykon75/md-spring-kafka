@@ -13,7 +13,7 @@ import java.util.List;
 @Service
 public class CustomerService {
 
-    private static Logger log = LoggerFactory.getLogger(CustomerService.class);
+    private static final Logger log = LoggerFactory.getLogger(CustomerService.class);
     private final CustomerRepository repository;
 
     private final CustomerMapper mapper;
